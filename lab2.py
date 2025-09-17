@@ -61,13 +61,13 @@ print('Modified fruit_list', fruits_list)
 """# **Sets**"""
 
 #create sets
-set_a = {1, 2 , 23,  44, 86}
+set_a = {1, 2 , 3,  4, 5, 6}
 set_b = {5, 8 , 9 , 6, 5}
 
 #union, Intersection, Difference
 print('Union',set_a | set_b)
-print('Intersection',set_a & set_b)
-print('Difference', set_a / set_b)
+print('Intersection', set_a & set_b)
+print('Difference', set_a - set_b)
 
 """# **Dictionaries**"""
 
